@@ -17,7 +17,7 @@ const BusinessModelSlide = () => {
             <div className="relative z-10 grid grid-cols-3 gap-10 my-8">
                 <BMLogicCard
                     icon={<Landmark size={32} className="text-emerald-600" />}
-                    actor="지자체 (춘천시)"
+                    actor="지자체"
                     shortTerm="지역 상품권/주차권 지원"
                     impact="사고 행정 비용 절감 및 지역 경제 활성화"
                 />
@@ -41,9 +41,9 @@ const BusinessModelSlide = () => {
                     <Repeat className="text-emerald-500 animate-spin-slow" size={40} />
                     <div>
                         <p className="text-2xl font-bold tracking-tight text-slate-800">
-                            "지자체는 <span className="text-emerald-600 font-black italic underline decoration-emerald-200">예산</span>을 아끼고,
-                            보험사는 <span className="text-blue-600 font-black italic underline decoration-blue-200">손해</span>를 줄이며,
-                            사용자는 <span className="text-yellow-600 font-black italic underline decoration-yellow-200">이득</span>을 봅니다"
+                            "지자체는 <span className="text-emerald-600 font-black italic underline decoration-emerald-200">예산 </span>을 아끼고,
+                            보험사는 <span className="text-blue-600 font-black italic underline decoration-blue-200">손해   </span>를 줄이며,
+                            사용자는 <span className="text-yellow-600 font-black italic underline decoration-yellow-200">이득   </span>을 봅니다"
                         </p>
                     </div>
                 </div>
