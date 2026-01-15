@@ -7,12 +7,12 @@ const UserFlowSlide = () => {
 
             {/* 헤더 */}
             <div className="flex justify-between items-center border-b-4 border-indigo-600 pb-4">
-                <h1 className="text-5xl font-black text-slate-900">WorkFlow</h1> {/* text-6xl을 text-4xl로 변경 */}
+                <h1 className="text-5xl font-black text-slate-900">WorkFlow</h1>
 
             </div>
 
             {/* 5단계 타임라인 흐름 */}
-            <div className="flex justify-between items-start gap-2 relative mt-10">
+            <div className="flex justify-between items-start gap-2 relative mt-8 flex-1">
                 {/* 연결 선 */}
                 <div className="absolute top-12 left-10 right-10 h-1 bg-slate-100 -z-10"></div>
 

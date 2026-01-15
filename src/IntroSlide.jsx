@@ -3,7 +3,7 @@ import { AlertTriangle, ShieldCheck, MapPin } from 'lucide-react';
 
 const IntroSlide = () => {
     return (
-        <div className="w-[1280px] h-[720px] bg-white text-slate-900 px-20 pt-20 pb-8 flex flex-col justify-between overflow-hidden relative mx-auto my-auto shadow-2xl selection:bg-red-500 selection:text-white">
+        <div className="w-[1280px] h-[720px] bg-white text-slate-900 px-20 pt-16 pb-12 flex flex-col justify-between overflow-hidden relative mx-auto my-auto shadow-2xl selection:bg-red-500 selection:text-white">
             {/* 배경 장식 (춘천 지도 실루엣 느낌) */}
             <div className="absolute top-0 right-0 opacity-[0.03] pointer-events-none text-slate-900">
                 <MapPin size={600} strokeWidth={0.5} />

@@ -3,7 +3,7 @@ import { Globe, TrendingUp, Award, Rocket } from 'lucide-react';
 
 const VisionSlide = () => {
     return (
-        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-20 flex flex-col justify-between overflow-hidden relative shadow-2xl border-8 border-slate-100">
+        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-16 flex flex-col justify-between overflow-hidden relative shadow-2xl border-8 border-slate-100">
 
             {/* 배경 원형 그라데이션 (미래 지향적 느낌) */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-indigo-100/50 rounded-full blur-[120px]"></div>
@@ -21,7 +21,7 @@ const VisionSlide = () => {
             </div>
 
             {/* 비전 포인트 3가지 */}
-            <div className="relative z-10 grid grid-cols-3 gap-10 mt-10">
+            <div className="relative z-10 grid grid-cols-3 gap-8 mt-8">
                 <VisionCard
                     icon={<Globe className="text-indigo-600" size={32} />}
                     title="National Expansion"
@@ -40,7 +40,7 @@ const VisionSlide = () => {
             </div>
 
             {/* 하단 클로징 문구 */}
-            <div className="relative z-10 flex justify-between items-end pt-10 border-t border-slate-200">
+            <div className="relative z-10 flex justify-between items-end pt-8 border-t border-slate-200">
                 <div>
                     <p className="text-slate-500 font-medium mb-1 italic">"안전이 가치가 되는 세상"</p>
                     <p className="text-2xl font-black tracking-tighter uppercase text-slate-800">Chuncheon Safe Drive Package</p>

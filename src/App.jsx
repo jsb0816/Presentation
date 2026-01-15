@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import IntroSlide from './IntroSlide'
 import TechStackSlide from './TechStackSlide'
 import BusinessModelSlide from './BusinessModelSlide'
+import ModelLearningSlide from './ModelLearningSlide'
+import ModelTrainingSlide from './ModelTrainingSlide'
 import UserFlowSlide from './UserFlowSlide'
 import VisionSlide from './VisionSlide'
 
@@ -11,6 +13,8 @@ function App() {
     <IntroSlide key="intro" />,
     <UserFlowSlide key="flow" />,
     <TechStackSlide key="tech" />,
+    <ModelLearningSlide key="model" />,
+    <ModelTrainingSlide key="training" />,
     <BusinessModelSlide key="bm" />,
     <VisionSlide key="vision" />
   ];

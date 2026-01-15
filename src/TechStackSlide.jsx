@@ -6,16 +6,16 @@ const TechStackSlide = () => {
         <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-16 flex flex-col justify-between border-8 border-slate-100 shadow-2xl">
 
             {/* 헤더 섹션 */}
-            <div className="border-b border-slate-200 pb-6">
+            <div className="border-b border-slate-200 pb-3">
                 <h2 className="text-sm font-mono text-indigo-500 mb-2 tracking-[0.3em] font-bold">TECHNICAL ARCHITECTURE</h2>
                 <h1 className="text-5xl font-black text-slate-900">How It Works</h1> {/* italic 클래스 제거 및 "AI & Data Logic" 삭제 */}
             </div>
 
             {/* items-center 제거 및 섹션별 mt- 값 조정 */}
-            <div className="grid grid-cols-2 gap-12"> {/* items-center를 제거했습니다. */}
+            <div className="grid grid-cols-2 gap-12 flex-1 mt-6"> {/* items-center를 제거했습니다. */}
 
                 {/* 왼쪽: Video Swin Transformer 설명 */}
-                <section className="space-y-6 mt-[-4]">
+                <section className="space-y-6">
                     <div className="flex items-center gap-3">
                         <div className="bg-indigo-100 text-indigo-700 p-2 rounded-lg"><Cpu size={24} /></div>
                         <h3 className="text-2xl font-bold font-mono text-slate-800">Video Swin Transformer (3D-T)</h3>
@@ -40,7 +40,7 @@ const TechStackSlide = () => {
                 </section>
 
                 {/* 오른쪽: 스코어링 알고리즘 */}
-                <section className="space-y-6 mt-[-4]">
+                <section className="space-y-6">
                     <div className="flex items-center gap-3">
                         <div className="bg-emerald-100 text-emerald-700 p-2 rounded-lg"><Activity size={24} /></div>
                         <h3 className="text-2xl font-bold font-mono text-slate-800">Real-time Scoring Algorithm</h3>
@@ -68,7 +68,7 @@ const TechStackSlide = () => {
             </div>
 
             {/* 하단 기술 요약 배지 */}
-            <div className="flex gap-4 mb-[32px]">
+            <div className="flex gap-4">
                 {['PyTorch', 'FastAPI', 'Vercel', 'AWS EC2', 'T-Map API'].map(tech => (
                     <span key={tech} className="px-4 py-1 bg-white rounded-full text-sm font-mono text-slate-500 border border-slate-200 shadow-sm">
                         {tech}
