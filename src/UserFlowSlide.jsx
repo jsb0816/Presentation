@@ -8,9 +8,7 @@ const UserFlowSlide = () => {
             {/* 헤더 */}
             <div className="flex justify-between items-center border-b-4 border-indigo-600 pb-4">
                 <h1 className="text-5xl font-black text-slate-900">WorkFlow</h1> {/* text-6xl을 text-4xl로 변경 */}
-                <div className="bg-indigo-50 text-indigo-600 px-4 py-1 rounded-full text-sm font-bold border border-indigo-100">
-                    Step-by-Step Experience
-                </div>
+
             </div>
 
             {/* 5단계 타임라인 흐름 */}
@@ -58,7 +56,7 @@ const UserFlowSlide = () => {
             <div className="bg-slate-50 p-6 rounded-3xl border border-slate-200 flex gap-4 items-center shadow-sm justify-center">
                 <div className="w-12 h-12 flex items-center justify-center shrink-0"></div>
                 <p className="text-2xl font-medium text-slate-600 leading-relaxed text-center">
-                    "사용자가 춘천 시민임을 인증하면, 시스템이 해당하는 <span className="text-indigo-600 font-bold">지역 특화 보상</span>을 준비합니다."
+                    "사용자가 해당하는 지역을 설정하면, 시스템이 해당 지역에서 진행하는 <span className="text-indigo-600 font-bold">챌린지</span>를 준비합니다"
                 </p>
             </div>
         </div>

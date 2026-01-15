@@ -46,7 +46,7 @@ const VisionSlide = () => {
                     <p className="text-2xl font-black tracking-tighter uppercase text-slate-800">Chuncheon Safe Drive Package</p>
                 </div>
                 <div className="text-right">
-                    <p className="text-slate-400 text-sm">Presenting by Team [팀명]</p>
+                    <p className="text-slate-400 text-sm">Presenting by C-Team</p>
                 </div>
             </div>
         </div>
