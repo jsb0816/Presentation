@@ -7,12 +7,26 @@ import ModelTrainingSlide from './ModelTrainingSlide'
 import UserFlowSlide from './UserFlowSlide'
 import VisionSlide from './VisionSlide'
 
+import NewsSlide from './NewsSlide'
+import DrowsinessSlide from './DrowsinessSlide'
+
+import ModelDemoSlide from './ModelDemoSlide'
+
+import ModelDemoPhoneSlide from './ModelDemoPhoneSlide'
+
+import ModelDemoSearchingSlide from './ModelDemoSearchingSlide'
+
 function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     <IntroSlide key="intro" />,
+    <NewsSlide key="news" />,
+    <DrowsinessSlide key="drowsy" />,
     <UserFlowSlide key="flow" />,
     <TechStackSlide key="tech" />,
+    <ModelDemoSlide key="demo" />,
+    <ModelDemoPhoneSlide key="demo_phone" />,
+    <ModelDemoSearchingSlide key="demo_searching" />,
     <ModelLearningSlide key="model" />,
     <ModelTrainingSlide key="training" />,
     <BusinessModelSlide key="bm" />,
@@ -30,7 +44,7 @@ function App() {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [slides.length]);
 
   return (
     <div className="w-full h-screen bg-slate-200 flex items-center justify-center overflow-hidden relative">

@@ -8,7 +8,7 @@ const BusinessModelSlide = () => {
             <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-emerald-100/50 rounded-full blur-3xl"></div>
 
             {/* 헤더 */}
-            <div className="relative z-10 border-b border-slate-200 pb-6">
+            <div className="relative z-10 border-b border-slate-200 pb-4">
                 <h2 className="text-sm font-mono text-emerald-600 mb-2 tracking-[0.3em] font-bold">BUSINESS MODEL & SOCIAL VALUE</h2>
                 <h1 className="text-5xl font-black text-slate-900">Sustainable <span className="text-emerald-500 font-normal">Safety Ecosystem</span></h1>
             </div>

@@ -3,12 +3,12 @@ import { UserCheck, Eye, Activity, Flag, Gift, ChevronRight } from 'lucide-react
 
 const UserFlowSlide = () => {
     return (
-        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-12 flex flex-col justify-between overflow-hidden shadow-2xl border-8 border-slate-100">
+        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-16 flex flex-col justify-between overflow-hidden shadow-2xl border-8 border-slate-100">
 
             {/* 헤더 */}
-            <div className="flex justify-between items-center border-b-4 border-indigo-600 pb-4">
+            <div className="border-b-4 border-indigo-600 pb-4">
+                <h2 className="text-sm font-mono text-indigo-600 mb-2 tracking-[0.3em] font-bold">SERVICE FLOW</h2>
                 <h1 className="text-5xl font-black text-slate-900">WorkFlow</h1>
-
             </div>
 
             {/* 5단계 타임라인 흐름 */}

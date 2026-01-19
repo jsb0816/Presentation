@@ -6,7 +6,7 @@ const TechStackSlide = () => {
         <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-16 flex flex-col justify-between border-8 border-slate-100 shadow-2xl">
 
             {/* 헤더 섹션 */}
-            <div className="border-b border-slate-200 pb-3">
+            <div className="border-b border-slate-200 pb-4">
                 <h2 className="text-sm font-mono text-indigo-500 mb-2 tracking-[0.3em] font-bold">TECHNICAL ARCHITECTURE</h2>
                 <h1 className="text-5xl font-black text-slate-900">How It Works</h1> {/* italic 클래스 제거 및 "AI & Data Logic" 삭제 */}
             </div>

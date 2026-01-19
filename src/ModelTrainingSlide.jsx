@@ -3,14 +3,14 @@ import { Cpu, Activity } from 'lucide-react';
 
 const ModelTrainingSlide = () => {
     return (
-        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-12 flex flex-col justify-between overflow-hidden relative shadow-2xl border-8 border-slate-100">
+        <div className="w-[1280px] h-[720px] bg-white text-slate-900 p-16 flex flex-col justify-between overflow-hidden relative shadow-2xl border-8 border-slate-100">
             {/* 배경 장식 */}
             <div className="absolute -bottom-20 -left-20 w-96 h-96 bg-indigo-100/50 rounded-full blur-3xl"></div>
 
             {/* 헤더 */}
             <div className="relative z-10 border-b border-slate-200 pb-4">
                 <h2 className="text-sm font-mono text-indigo-600 mb-2 tracking-[0.3em] font-bold">MODEL-LEARNING</h2>
-                <h1 className="text-4xl font-black text-slate-900">Model Learning</h1>
+                <h1 className="text-5xl font-black text-slate-900">Model Learning</h1>
             </div>
 
             {/* 중앙 콘텐츠 영역 */}
@@ -72,13 +72,11 @@ const ModelTrainingSlide = () => {
                         {/* 추론 파이프라인 */}
                         <div>
                             <h4 className="text-lg font-bold text-slate-800 mb-2">추론 파이프라인</h4>
-                            <div className="text-lg text-slate-700 space-y-0 leading-relaxed">
+                            <div className="text-base text-slate-700 space-y-0 leading-tight">
                                 <div>카메라 30fps → Circular Buffer (30프레임)</div>
-                                <div className="pl-4">│</div>
-                                <div className="pl-4">▼</div>
+                                <div className="pl-4 text-slate-400">▼</div>
                                 <div>모델 추론</div>
-                                <div className="pl-4">│</div>
-                                <div className="pl-4">▼</div>
+                                <div className="pl-4 text-slate-400">▼</div>
                                 <div>앱에서 경고/알람 처리</div>
                             </div>
                         </div>
